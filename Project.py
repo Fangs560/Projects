@@ -157,7 +157,7 @@ def a8():
     per_p8=float(inp_p8/tot_p8)*100
     p8_lab=Label(root,text=at_p8).grid(row=12,column=3)
     perp8_lab=Label(root,text=str(round(per_p8,2))+"%").grid(row=12,column=4)
-    
+
 #Labels for name, reg.no, branch and section
 name_lab=Label(root,text="Name:").grid(row=0,column=0)
 reg_lab=Label(root,text="Reg No.:").grid(row=1,column=0)
@@ -202,15 +202,4 @@ a6_but=Button(root,text="Absent",command=a6).grid(row=10,column=2)
 a7_but=Button(root,text="Absent",command=a7).grid(row=11,column=2)
 a8_but=Button(root,text="Absent",command=a8).grid(row=12,column=2)
 
-
-
-
-
-
-
-
-
-
-
-    
-
+root.mainloop()

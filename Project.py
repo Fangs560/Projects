@@ -202,4 +202,5 @@ a6_but=Button(root,text="Absent",command=a6).grid(row=10,column=2)
 a7_but=Button(root,text="Absent",command=a7).grid(row=11,column=2)
 a8_but=Button(root,text="Absent",command=a8).grid(row=12,column=2)
 
+root.resizable(False,False)
 root.mainloop()
